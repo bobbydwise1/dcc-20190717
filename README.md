@@ -12,3 +12,5 @@ def cons(a, b):
     return pair
 
 _Implement car and cdr._
+
+* _Note: problem has been completed in javascript._
