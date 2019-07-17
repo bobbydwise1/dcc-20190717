@@ -19,6 +19,18 @@ const makeRandomNumber = () => {
   return Math.ceil(Math.random()*10);
 }
 
+const cons = (a,b) => {
+  return [a,b];
+}
+
+const car = (yourArray) => {
+  return yourArray[0];
+}
+
+const cdr = (yourArray) => {
+  return yourArray[yourArray.length-1];
+}
+
 $(document).ready(function() {
   $('#output-section-1').text(1);
   $('#output-section-2').text(2);
