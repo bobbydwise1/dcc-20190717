@@ -15,6 +15,7 @@ return pair
 Implement car and cdr.
 */
 
+//Note, this is done in javascript.
 const makeRandomNumber = () => {
   return Math.ceil(Math.random()*10);
 }
@@ -32,7 +33,8 @@ const cdr = (yourArray) => {
 }
 
 $(document).ready(function() {
-  $('#output-section-1').text(1);
-  $('#output-section-2').text(2);
-  $('#output-section-3').text(3);
+  $('#output-section-1').text('3, 4');
+  $('#output-section-2').text(cons(3,4));
+  $('#output-section-3').text(car(cons(3,4)));
+  $('#output-section-4').text(cdr(cons(3,4)));
   });
